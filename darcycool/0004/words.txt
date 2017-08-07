@@ -1,0 +1,1 @@
+The amount of stupidity in this story warrants that this is going to be somewhat long, so I start at the end: as the title says, an 18 year old guy was arrested two days ago for 'hacking' the new Budapest public transport e-Ticket system a week before, even though he immediately reported the vulnerability he found.
