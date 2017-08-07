@@ -1,0 +1,6 @@
+Our goal is to generate for you a complete and modern Web app or microservice architecture, unifying:
+
+A high-performance and robust Java stack on the server side with Spring Boot
+A sleek, modern, mobile-first front-end with Angular and Bootstrap
+A robust microservice architecture with JHipster Registry, Netflix OSS, ELK stack and Docker
+A powerful workflow to build your application with Yeoman, Webpack/Gulp and Maven/Gradle

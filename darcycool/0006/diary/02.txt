@@ -1,0 +1,8 @@
+You can checkout a sample generated AngularJS 1 application here.
+
+You can checkout a sample generated Angular 4 application here.
+
+JHipster is Open Source, and all development is done on GitHub
+
+If you want to code with us, feel free to join!
+If you like the project, please give us a star on GitHub
