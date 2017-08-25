@@ -8,12 +8,10 @@ import xlwt
 
 file = open('student.txt', 'r')
 
-students = json.loads(file.read())
+students = json.loads(file.read(), object_pairs_hook=OrderedDict)
 
 wb = xlwt.Workbook()
 ws = wb.add_sheet('学生信息')
-
-json.dumps(OrderedDict(students))
 
 for index, items in enumerate(students.items()):
     ws.write(index, 0, items[0])

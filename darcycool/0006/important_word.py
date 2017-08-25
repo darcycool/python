@@ -24,3 +24,14 @@ for top, dirnames, filenames in os.walk(rootDir):
         reObj = re.compile('\b?(\w+)\b?')
         words = reObj.findall(str)
         count_words(filename, words)
+
+from collections import Counter
+
+for top, dirnames, filenames in os.walk(rootDir):
+    for filename in filenames:
+        file = open(rootDir + filename, 'r')
+        str = file.read()
+        reObj = re.compile('\b?(\w+)\b?')
+        words = reObj.findall(str)
+        words = map(lambda w: w.lower(), words)
+        print(filename, Counter(words).most_common(1))
